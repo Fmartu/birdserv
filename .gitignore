@@ -1,0 +1,30 @@
+# executables
+webserv
+*.out
+
+# build
+*.o
+*.d
+.cache/
+
+# cmake
+build/
+build_tests/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.bak
+
+# editors
+.swp
+.pid
+.log
+
+# CodeQL
+_codeql_detected_source_root
+_codeql_build_dir/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
